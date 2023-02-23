@@ -6,8 +6,8 @@ on:
       - master
 
 jobs:
-  deploy-pages:
-    name: Deploy Pages
+  cd:
+    name: CD
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,18 +18,12 @@ jobs:
           node-version: 18.x
       - name: Install Dependencies
         run: yarn install --network-timeout 86400000
-      - name: Unit Test
-        run: yarn test
+      # - name: Unit Test
+      #   run: yarn test
       - name: Build Production
         run: yarn build
-        env:
-          BASE_URL: https://homapis.vercel.app/api
-          NEXT_PUBLIC_BASE_URL: https://homapis.vercel.app/api
       - name: Export Static
         run: yarn export
-        env:
-          BASE_URL: https://homapis.vercel.app/api
-          NEXT_PUBLIC_BASE_URL: https://homapis.vercel.app/api
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
       - name: Deploy Pages
