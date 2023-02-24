@@ -12,16 +12,36 @@ exports[`Navbar to match snapshot 1`] = `
         <div
           class="flex justify-between"
         >
-          <h1
-            class="text-2xl uppercase tracking-wider font-bold"
+          <a
+            href="/"
           >
-            ☕ Cafe 
-            <span
-              class="text-red-500"
+            <div
+              class="flex items-center gap-2"
             >
-              Sang
-            </span>
-          </h1>
+              <img
+                alt="Cafe Sang"
+                data-nimg="1"
+                decoding="async"
+                height="24"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+                style="color: transparent;"
+                width="24"
+              />
+               
+              <h1
+                class="text-2xl uppercase tracking-wider font-bold"
+              >
+                Cafe 
+                <span
+                  class="text-red-500"
+                >
+                  Sang
+                </span>
+              </h1>
+            </div>
+          </a>
           <p>
             <a
               class="uppercase"

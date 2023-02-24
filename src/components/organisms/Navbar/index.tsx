@@ -1,5 +1,7 @@
+import cafesang from '@/assets/cafesang.svg';
 import Button from '@/components/atoms/Button';
 import Container from '@mui/material/Container';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const Navbar: React.FC = () => {
@@ -8,9 +10,14 @@ export const Navbar: React.FC = () => {
       <Container>
         <div className="py-8">
           <div className="flex justify-between">
-            <h1 className="text-2xl uppercase tracking-wider font-bold">
-              ☕ Cafe <span className="text-red-500">Sang</span>
-            </h1>
+            <Link href="/">
+              <div className="flex items-center gap-2">
+                <Image src={cafesang} alt="Cafe Sang" width={24} height={24} />{' '}
+                <h1 className="text-2xl uppercase tracking-wider font-bold">
+                  Cafe <span className="text-red-500">Sang</span>
+                </h1>
+              </div>
+            </Link>
             <p>
               <Link
                 href="https://vnexpress.net"
