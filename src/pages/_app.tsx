@@ -19,7 +19,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
           content="width=device-width,initial-scale=1"
           key="viewport"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico?v=2" />
       </Head>
       <Component {...pageProps} />
     </>
