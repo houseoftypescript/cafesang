@@ -11,21 +11,21 @@ export const Footer: React.FC = () => {
   return (
     <footer>
       <Container>
-        <div className="py-8">
+        <div className="py-4">
           <div className="flex justify-between">
-            <p className="text-gray-700">&copy; {year} Cafe Sang</p>
+            <p className="text-gray-500">&copy; {year} Cafe Sang</p>
             <div className="flex gap-2">
               <Link href="https://facebook.com" target="_blank">
-                <FacebookIcon className="text-gray-700 hover:text-gray-900" />
+                <FacebookIcon className="text-gray-500 hover:text-gray-900" />
               </Link>
               <Link href="https://twitter.com" target="_blank">
-                <TwitterIcon className="text-gray-700 hover:text-gray-900" />
+                <TwitterIcon className="text-gray-500 hover:text-gray-900" />
               </Link>
               <Link href="https://linkedin.com" target="_blank">
-                <LinkedInIcon className="text-gray-700 hover:text-gray-900" />
+                <LinkedInIcon className="text-gray-500 hover:text-gray-900" />
               </Link>
               <Link href="https://youtube.com" target="_blank">
-                <YouTubeIcon className="text-gray-700 hover:text-gray-900" />
+                <YouTubeIcon className="text-gray-500 hover:text-gray-900" />
               </Link>
             </div>
           </div>

@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero to match snapshot 1`] = `
+<div>
+  <section
+    id="hero"
+  >
+    <div
+      class="bg-blue-500"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      >
+        <div
+          class="py-8 md:py-16"
+        >
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
+          >
+            <div
+              class="col-span-1"
+            >
+              <div
+                class="flex flex-col gap-4 text-white"
+              >
+                <h1
+                  class="text-4xl font-black"
+                >
+                  Be updated in just 5 minutes
+                </h1>
+                <p>
+                  Get the daily email that makes reading the news enjoyable. Stay informed and entertained, for free.
+                </p>
+                <form
+                  class="flex gap-4"
+                >
+                  <input
+                    class="px-4 py-2 rounded w-full shadow-2xl"
+                    id="email"
+                    name="email"
+                    placeholder="Email Address"
+                    value=""
+                  />
+                  <button
+                    class="px-4 py-2 rounded bg-blue-900 shadow-2xl text-white"
+                    type="submit"
+                  >
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div
+              class="col-span-1"
+            >
+              <div
+                class="bg-white w-full min-h-full shadow-2xl rounded"
+              >
+                <div
+                  class="flex items-center"
+                >
+                  <div
+                    class="grid grid-cols-1 md:grid-cols-2 items-center"
+                  >
+                    <div
+                      class="pb-[100%] bg-center bg-cover bg-no-repeat rounded"
+                      style="background-image: url(undefined);"
+                    />
+                    <div
+                      class="flex flex-col gap-2 p-8"
+                    >
+                      <p
+                        class="text-blue-500 font-bold"
+                      />
+                      <h3
+                        class="truncate-multipleline text-xl font-medium"
+                      />
+                      <p
+                        class="truncate-multipleline"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

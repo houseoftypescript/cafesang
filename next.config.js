@@ -6,7 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: isProd ? '/cafesang' : undefined,
   assetPrefix: isProd ? '/cafesang/' : undefined,
-  images: { unoptimized: true },
+  images: { unoptimized: true, domains: ['i-vnexpress.vnecdn.net'] },
 };
 
 module.exports = nextConfig;

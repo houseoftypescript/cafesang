@@ -1,25 +1,27 @@
+import content from '@/content';
 import Container from '@mui/material/Container';
-import { ChangeEvent, useState } from 'react';
+import { ChangeEvent, FormEvent, useState } from 'react';
+import Button from '../../atoms/Button';
+import Input from '../../atoms/Input';
 
 export const CTA: React.FC = () => {
   const [email, setEmail] = useState<string>('');
+
+  const subscribe = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+  };
 
   return (
     <section id="cta">
       <div className="bg-blue-500 text-white">
         <Container>
-          <div className="py-16">
-            <div className="w-full md:w-2/3 lg:w-3/4 mx-auto">
+          <div className="py-8 md:py-16">
+            <div className="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 mx-auto">
               <div className="flex flex-col gap-4 text-center">
-                <h1 className="text-4xl font-black">
-                  Become updated in just 5 minutes
-                </h1>
-                <p>
-                  Get the daily email that makes reading the news enjoyable.
-                  Stay informed and entertained, for free.
-                </p>
-                <form className="flex gap-4">
-                  <input
+                <h1 className="text-4xl font-black">{content.tagline}</h1>
+                <p>{content.description}</p>
+                <form onSubmit={subscribe} className="flex gap-4">
+                  <Input
                     id="email"
                     name="email"
                     placeholder="Email Address"
@@ -27,14 +29,8 @@ export const CTA: React.FC = () => {
                     onChange={(event: ChangeEvent<HTMLInputElement>) =>
                       setEmail(event.target.value)
                     }
-                    className="px-4 py-2 rounded w-full shadow-2xl"
                   />
-                  <button
-                    type="submit"
-                    className="px-4 py-2 rounded bg-blue-900 shadow-2xl"
-                  >
-                    Subscribe
-                  </button>
+                  <Button type="submit">Subscribe</Button>
                 </form>
               </div>
             </div>

@@ -4,8 +4,10 @@ export const Navbar: React.FC = () => {
   return (
     <nav>
       <Container>
-        <div className="py-8">
-          <h1 className="text-xl">☕ Cafe Sang</h1>
+        <div className="py-4">
+          <h1 className="text-2xl uppercase tracking-wider font-bold">
+            ☕ Cafe <span className="text-blue-500">Sang</span>
+          </h1>
         </div>
       </Container>
     </nav>

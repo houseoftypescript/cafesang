@@ -7,6 +7,7 @@ export type InputProps = {
   value: string;
   onChange: (event: ChangeEvent<HTMLInputElement>) => void;
   required?: boolean;
+  disabled?: boolean;
 };
 
 export const Input: React.FC<InputProps> = ({
@@ -16,6 +17,7 @@ export const Input: React.FC<InputProps> = ({
   value,
   onChange,
   required = false,
+  disabled = false,
 }) => {
   return (
     <input
@@ -25,6 +27,7 @@ export const Input: React.FC<InputProps> = ({
       value={value}
       onChange={onChange}
       required={required}
+      disabled={disabled}
       className="px-4 py-2 rounded w-full shadow-2xl"
     />
   );

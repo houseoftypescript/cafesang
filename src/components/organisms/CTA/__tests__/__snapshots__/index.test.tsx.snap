@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CTA to match snapshot 1`] = `
+<div>
+  <section
+    id="cta"
+  >
+    <div
+      class="bg-blue-500 text-white"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      >
+        <div
+          class="py-8 md:py-16"
+        >
+          <div
+            class="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 mx-auto"
+          >
+            <div
+              class="flex flex-col gap-4 text-center"
+            >
+              <h1
+                class="text-4xl font-black"
+              >
+                Be updated in just 5 minutes
+              </h1>
+              <p>
+                Get the daily email that makes reading the news enjoyable. Stay informed and entertained, for free.
+              </p>
+              <form
+                class="flex gap-4"
+              >
+                <input
+                  class="px-4 py-2 rounded w-full shadow-2xl"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                  value=""
+                />
+                <button
+                  class="px-4 py-2 rounded bg-blue-900 shadow-2xl text-white"
+                  type="submit"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
