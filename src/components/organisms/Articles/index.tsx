@@ -126,7 +126,7 @@ export const Articles: React.FC<ArticlesProps> = ({
                 <div className="border-b py-4 mb-8">
                   <div className="flex justify-between items-center">
                     <h2 className="text-2xl uppercase">{category.cate_name}</h2>
-                    <p className="text-blue-500">
+                    <p className="text-red-500">
                       <Link
                         href={`https://vnexpress.net${category.cate_url}`}
                         target="_blank"

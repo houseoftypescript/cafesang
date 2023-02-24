@@ -3,7 +3,7 @@
 exports[`Button to match snapshot 1`] = `
 <div>
   <button
-    class="px-4 py-2 rounded bg-blue-900 shadow-2xl text-white"
+    class="px-4 py-2 rounded bg-red-900 shadow-2xl text-white "
     type="button"
   >
     Button

@@ -29,7 +29,7 @@ export const Article: React.FC<ArticleProps> = ({
         </div>
         <div className="col-span-1">
           <div className="flex flex-col gap-2">
-            <p className="text-blue-500 font-bold">{category}</p>
+            <p className="text-red-500 font-bold">{category}</p>
             <h3 className="truncate-multipleline text-xl font-medium">
               {title}
             </h3>

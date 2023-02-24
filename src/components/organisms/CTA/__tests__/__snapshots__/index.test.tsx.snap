@@ -6,7 +6,7 @@ exports[`CTA to match snapshot 1`] = `
     id="cta"
   >
     <div
-      class="bg-blue-500 text-white"
+      class="bg-red-500 text-white"
     >
       <div
         class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
@@ -39,7 +39,7 @@ exports[`CTA to match snapshot 1`] = `
                   value=""
                 />
                 <button
-                  class="px-4 py-2 rounded bg-blue-900 shadow-2xl text-white"
+                  class="px-4 py-2 rounded bg-red-900 shadow-2xl text-white "
                   type="submit"
                 >
                   Subscribe

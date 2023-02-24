@@ -6,7 +6,7 @@ exports[`Hero to match snapshot 1`] = `
     id="hero"
   >
     <div
-      class="bg-blue-500"
+      class="bg-red-500"
     >
       <div
         class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
@@ -42,7 +42,7 @@ exports[`Hero to match snapshot 1`] = `
                     value=""
                   />
                   <button
-                    class="px-4 py-2 rounded bg-blue-900 shadow-2xl text-white"
+                    class="px-4 py-2 rounded bg-red-900 shadow-2xl text-white "
                     type="submit"
                   >
                     Subscribe
@@ -56,31 +56,36 @@ exports[`Hero to match snapshot 1`] = `
               <div
                 class="bg-white w-full min-h-full shadow-2xl rounded"
               >
-                <div
-                  class="flex items-center"
+                <a
+                  href="#"
+                  target="_blank"
                 >
                   <div
-                    class="grid grid-cols-1 md:grid-cols-2 items-center"
+                    class="flex items-center"
                   >
                     <div
-                      class="pb-[100%] bg-center bg-cover bg-no-repeat rounded"
-                      style="background-image: url(undefined);"
-                    />
-                    <div
-                      class="flex flex-col gap-2 p-8"
+                      class="grid grid-cols-1 md:grid-cols-2 items-center"
                     >
-                      <p
-                        class="text-blue-500 font-bold"
+                      <div
+                        class="pb-[100%] bg-center bg-cover bg-no-repeat rounded"
+                        style="background-image: url(undefined);"
                       />
-                      <h3
-                        class="truncate-multipleline text-xl font-medium"
-                      />
-                      <p
-                        class="truncate-multipleline"
-                      />
+                      <div
+                        class="flex flex-col gap-2 p-8"
+                      >
+                        <p
+                          class="text-red-500 font-bold"
+                        />
+                        <h3
+                          class="truncate-multipleline text-xl font-medium"
+                        />
+                        <p
+                          class="truncate-multipleline"
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>

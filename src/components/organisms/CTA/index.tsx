@@ -13,7 +13,7 @@ export const CTA: React.FC = () => {
 
   return (
     <section id="cta">
-      <div className="bg-blue-500 text-white">
+      <div className="bg-red-500 text-white">
         <Container>
           <div className="py-8 md:py-16">
             <div className="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 mx-auto">

@@ -7,7 +7,7 @@ exports[`Footer to match snapshot 1`] = `
       class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
     >
       <div
-        class="py-4"
+        class="py-8"
       >
         <div
           class="flex justify-between"
@@ -28,7 +28,7 @@ exports[`Footer to match snapshot 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-gray-500 hover:text-gray-900 css-i4bv87-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-gray-500 hover:text-red-500 css-i4bv87-MuiSvgIcon-root"
                 data-testid="FacebookIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -44,7 +44,7 @@ exports[`Footer to match snapshot 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-gray-500 hover:text-gray-900 css-i4bv87-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-gray-500 hover:text-red-500 css-i4bv87-MuiSvgIcon-root"
                 data-testid="TwitterIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ exports[`Footer to match snapshot 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-gray-500 hover:text-gray-900 css-i4bv87-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-gray-500 hover:text-red-500 css-i4bv87-MuiSvgIcon-root"
                 data-testid="LinkedInIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -76,7 +76,7 @@ exports[`Footer to match snapshot 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-gray-500 hover:text-gray-900 css-i4bv87-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-gray-500 hover:text-red-500 css-i4bv87-MuiSvgIcon-root"
                 data-testid="YouTubeIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
