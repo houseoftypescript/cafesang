@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Cafe Sang",
   "main": "index.js",
-  "repository": "git@github.com:houseofmystery/cafesang.git",
+  "repository": "git@github.com:houseoftypescript/cafesang.git",
   "author": "hieudoanm <hieumdoan@gmail.com>",
   "license": "MIT",
   "private": true,

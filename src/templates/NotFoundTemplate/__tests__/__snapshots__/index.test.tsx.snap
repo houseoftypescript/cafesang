@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundTemplate to match snapshot 1`] = `
+<div>
+  <main
+    class="h-screen"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg h-full css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="h-full flex flex-col items-center justify-center gap-4"
+      >
+        <h1
+          class="text-9xl font-bold"
+        >
+          404
+        </h1>
+        <p
+          class="uppercase text-3xl"
+        >
+          Page Not Found
+        </p>
+        <a
+          href="/"
+        >
+          <button
+            class="px-4 py-2 rounded bg-red-900 shadow-2xl text-white "
+            type="button"
+          >
+            Go to Home Page
+          </button>
+        </a>
+      </div>
+    </div>
+  </main>
+</div>
+`;
